@@ -13,7 +13,7 @@ redwood_optimization1_May_to_Sep.params
 nsubOutBaseFileName
 1
 4
-optimization1_May_to_Sep_
+redwood_optimization1_May_to_Sep_
 ####
 cascadegw_flag
 1
@@ -38,7 +38,7 @@ GSFLOW model
 executable_model
 1
 4
-C:\Redwood_creek\bin\prms.exe
+.\bin\prms.exe
 ####
 gsflow_output_file
 1
@@ -138,7 +138,7 @@ print_debug
 statsON_OFF
 1
 1
-1
+0
 ####
 nstatVars
 1

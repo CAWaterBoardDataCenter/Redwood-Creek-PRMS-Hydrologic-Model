@@ -4,16 +4,16 @@ The control file is called 'redwood_control_optimization1.control'
 The data file is called 'redwood_data.data'
 The parameter file is called: 'redwood_optimization1_May_to_Sep.params'
 			 
-The model executable is in the Redwood_creek/bin folder of the GitHub repository.
+The model executable is in the bin folder of the GitHub repository.
 The batch file is called 'run.bat'
 
 Directions on how to run the model:
 
 Optimization 1 - Spring Recession and Dry Season Optimization
-Download and extract the GitHub repository, preferably directly to your C drive. Navigate to the PRMS_Optimization_May_to_Sep subfolder. Right click on 'run.bat' and edit the file using a text editor such as notepad or notepad++. If you saved the GitHub repository directly to your C drive, the file path to the prms executable in run.bat is shown as 'C:\Redwood_creek\bin\prms.exe' (without quotes), and does not need to be changed. If the GitHub repository is saved to another location, the file path shown in the 'run.bat' file needs to be updated to reflect the correct location of prms.exe. The text following the file path in 'run.bat' is the name of the control file and does not need to be changed. Save the 'run.bat' file. Run the model by double clicking on 'run.bat.' A prompt will show up and the model will take some time to execute. Once the model is finished executing, it will produce two csvs, optimization1_May_to_Sep_sub_cfs.csv and optimization1_May_to_Sep_sub_inq.csv. In each csv, the column headers include Date followed by Subbasin IDs. Unimpaired modeled flow estimates for each subbasin are reported in daily average cubic feet per second (cfs).
+Download and extract the GitHub repository, preferably directly to your C drive. Navigate to the PRMS_Optimization_May_to_Sep subfolder. Run the model by double clicking on 'run.bat.' A prompt will show up and the model will take some time to execute. Once the model is finished executing, it will produce two csvs, redwood_optimization1_May_to_Sep_sub_cfs.csv and redwood_optimization1_May_to_Sep_sub_inq.csv. In each csv, the column headers include Date followed by Subbasin IDs. Unimpaired modeled flow estimates for each subbasin are reported in daily average cubic feet per second (cfs).
 
-optimization1_May_to_Sep_sub_cfs.csv is the cumulative subbasin flow at the outlet of each subbasin. 
-optimization2_May_to_Sep_sub_inq.csv is the individual subbasin flow contribution for each subbasin. 
+redwood_optimization1_May_to_Sep_sub_cfs.csv is the cumulative subbasin flow at the outlet of each subbasin. 
+redwood_optimization2_May_to_Sep_sub_inq.csv is the individual subbasin flow contribution for each subbasin. 
 
 
 PRMS is open-sourced, publicly available, and  maintained by the United States Geological Survey (USGS). PRMS is well documented by Markstrom, Regan, and others (2008) from the USGS. The model documentation, manual, software releases, and updated notes and tables from new releases can be found at the following URL:
